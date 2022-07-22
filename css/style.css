@@ -1154,11 +1154,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   list-style: none;
 }
 
-#faq #faq-list li {
+#faq #faq-list #outer{
   border-bottom: 1px solid #ddd;
 }
 
-#faq #faq-list a {
+#faq #faq-list li{
+  padding-bottom: 2px;
+}
+
+#faq #faq-list  a {
   padding: 18px 0;
   display: block;
   position: relative;
@@ -1737,3 +1741,5 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 10px;
   }
 }
+
+
