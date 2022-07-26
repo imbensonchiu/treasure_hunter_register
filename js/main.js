@@ -151,7 +151,7 @@ jQuery(document).ready(function( $ ) {
       $('.head-panel').toggle('slow');
       $('.panel').slideToggle('slow');
 
-      if(isExpanded) {
+      if(!isExpanded) {
         $('.full-staff-btn').text('收回');
         $('.full-staff-btn').attr('href', '#speakers');
       } else {
